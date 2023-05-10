@@ -14,7 +14,6 @@ function PopupWithForm({name, title, isOpen, onClose, children, buttonText, butt
   }
 
   return (
-    //<section className={`popup popup_type_${name} ${isOpen && 'popup_opened'}`}>
     <section className={`popup popup_type_${name} ${isOpen && 'popup_opened'}`}>
       <div className="popup__content">
         <form 
